@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-image: url(../imagenespi/Ednamoda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 4%; height: 4%;
+    animation: rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg); 
+  }
+  100% {
+    transform: rotateY(360deg); 
+  }
+}
+@keyframes colorChange {
+  0% {
+    color: #F2CE0B;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: #F2CE0B;
+  }
+}
+
+
+
+.titulo h1 {
+  animation: colorChange infinite;
+  animation-duration: 2s;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #F2CE0B;
+}
+
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F2CE0B;
+}
+
+.container1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.col2{
+    text-align: center;
+    width:75%;
+    padding-left: 25%;
+}
+.col3{
+  text-align: center;
+  width:75%;
+  padding-left: 25%;
+}
+.descrip{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+form{
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.8);
+    background-color: rgba(242, 206, 11, 0.7);;
+    margin-left: 25%;
+}
+.form-control{
+  background-color: rgba(255, 0, 0, 1);
+}
+.form-control:hover{
+  background-color: rgba(255, 0, 0, 0.9);
+  animation: bgcolorChange infinite;
+  animation-duration: 2s;
+}
+@keyframes bgcolorChange {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+.descuento{
+    font-family:'Roboto', sans-serif;
+    background-color: rgba(242, 206, 11, 0.7);
+    font-weight: bold;
+    margin-bottom: 14%;
+    width: 50%;
+}
+.tienda{
+    font-family:'Roboto', sans-serif;
+    background-color: rgba(242, 206, 11, 0.7);
+    border-color: red;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 12%;
+}
+
+.icono{
+    width: 4%; height: 4%;
+}
+.redes{
+    background-color: red;
+}
+
+.creditos{
+  color:white;
+  width: 75%;
+  margin-left: 12%;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.submit{
+  background-color: red;
+}
+.submit:hover{
+  background-color: #F2CE0B;
+}
+  @keyframes bounce {
+    0%, 100% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
+ 
+  
+  .descuento {
+    animation: bounce 2s infinite;
+    border-color: red;
+  }
+  .gracias{
+    font-family:'Roboto', sans-serif;;
+    color: #F2CE0B;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+
+
+  @media (max-width: 768px){
+    .icono{
+      width: 9%; height: 9%;
+    }
+    .logo{
+      width: 9%; height: 9%;
+    }
+    .col2{
+      width:90%;
+      padding-left: 10%;
+  }
+
+  .descuento{
+    width:80%;
+    margin-top: 15%;
+  }
+  .col3{
+      width:100%;
+      padding-left: 0%;
+  }
+  .tienda{
+    width:100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  }
+
+  
+  
+  
+  

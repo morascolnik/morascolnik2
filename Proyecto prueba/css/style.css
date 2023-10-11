@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo{
+    width: 4%; height: 4%;
+    animation: rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg); 
+  }
+  100% {
+    transform: rotateY(360deg); 
+  }
+}
+
+
+.redes{
+    background-color: red;
+}
+.icono{
+    width: 4%; height: 4%;
+}
+
+.btn-white {
+  background-color: #F2CE0B;
+  border-color: red;
+}
+.offcanvas{
+  background-color: #F2CE0B;
+}
+.offcanvas-start{
+  color: red;
+}
+.nav-link:hover{
+ background-color: red;
+ color: #F2CE0B;
+ font-weight: bold;
+}
+.btn{
+  color:#F2CE0B;
+  background-color: red;
+}
+.btn:hover{
+  color:red;
+  background-color: #F2CE0B;
+}
+.title-3d {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateZ(50px); 
+  font-size: 8rem;
+  color:#F2CE0B;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 10px;
+  text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.8);
+  animation: colorChange infinite;
+  animation-duration: 3s;
+}
+.subtitle-3d{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateZ(50px); 
+  font-size: 3rem;
+  color:#F2CE0B;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+  animation: colorChange2 infinite;
+  animation-duration: 3s;
+}
+@keyframes colorChange {
+  0% {
+    color: #F2CE0B;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: #F2CE0B;
+  }
+}
+@keyframes colorChange2 {
+  0% {
+    color: red;
+  }
+  50% {
+    color:#F2CE0B;
+  }
+  100% {
+    color: red;
+  }
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 999; 
+}
+
+
+
+@media (max-width: 768px){
+  .icono{
+    width: 9%; height: 9%;
+  }
+  .logo{
+    width: 9%; height: 9%;
+  }
+  .title-3d {
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    font-size: 5rem;
+  }
+  .subtitle-3d{
+    width: 100%;
+    top: 60%;
+    left: 50%;
+    font-size: 3rem;
+  }
+}
+
+
+
+
