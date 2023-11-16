@@ -555,9 +555,6 @@ animation-duration: 2s;
     display: flex;
     flex-direction: column-reverse;
   }
-  .navbar {
-    padding: 10px; 
-  }
 
 .info-contacto{
   width: 100%;
