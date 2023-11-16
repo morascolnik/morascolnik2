@@ -525,13 +525,13 @@ animation-duration: 2s;
     width: 100%;
     top: 40%;
     left: 50%;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .subtitle-3d{
     width: 100%;
     top: 60%;
     left: 50%;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .blog{
     overflow: hidden;
@@ -566,10 +566,13 @@ animation-duration: 2s;
     flex-direction: column;
 }
 #notificacion{
-  width: 35%;
+  width: 45%;
 }
 .product {
 	width: 85%;
+}
+.enviado{
+  margin-top: 15%;
 }
 }
 
