@@ -6,6 +6,9 @@
 body {
   overflow-x: hidden;
 }
+.bghome{
+  width: 100%;
+}
 
 .video-background {
   position: fixed;
@@ -515,6 +518,9 @@ animation-duration: 2s;
 }
 
 @media (max-width: 768px){
+  .navbar{
+    width: 75%;
+  }
   .icono{
     width: 9%; height: 9%;
   }
@@ -571,9 +577,7 @@ animation-duration: 2s;
 .enviado{
   margin-top: 15%;
 }
-.navbar{
-  width: 75%;
-}
+
 }
 
 
